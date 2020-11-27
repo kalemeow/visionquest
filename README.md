@@ -53,4 +53,5 @@ save it then text that number and see what happens!
 ## it doesnt work
 :(
 
+check google cloud logging -- it'll usually throw a traceback that'll give you a hint as to where the problem may lie. 
 
