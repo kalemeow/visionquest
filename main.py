@@ -41,7 +41,7 @@ storage_client = storage.Client()
 
 
 def save_image(phoneNum, level, image):
-    bucketName = "vision-quest-d133"
+    bucketName = "insert_bucket_name_here"
     now = int(time.time())
     filename = "level_" + str(level) + "_" + str(phoneNum) + str(now) + ".png"
     filepath = '{}/{}'.format('/tmp', filename)
